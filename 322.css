@@ -1,0 +1,191 @@
+* {
+    transition: 1s;
+}
+.house {
+   width: 1200px;
+   height: 1600px; 
+   background-image: url(img/background.png);
+   margin:auto;
+   border-radius: 20px;
+}
+.top {
+    height: 28.125%; /* 450px */
+}
+.pic1-left {
+   float:left;
+   width: 37.5%;
+   height: 100%;
+   background-image: url(img/zazu1.png);
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 20px;
+   float:left;
+}
+.text1-right {
+    width: 60%;
+    height: 100%;
+    float:right;
+    background-color: lightcoral;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.9;
+}
+.center {
+    height: 28.125%; /* 450px */
+    width: 100%;
+}
+.krug-1 {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic1.png);
+    margin-top: 10%;
+    margin-left: 7.5%;
+    float:left;
+    border-radius: 100px;
+    box-shadow: inset 0 0 2.5Px  2.5Px  rgba(1, 172, 1, 0.486),  0 0  2.5Px  2.5Px  rgba(1, 172, 1, 0.486);
+    transform: scale(1.25);
+}
+.krug-1:hover{
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic1.png);
+    margin-top: 10%;
+    margin-left: 7.5%;
+    float:left;
+    border-radius: 100px;
+    box-shadow: inset 0 0 5px 5px rgba(1, 172, 1, 0.486),  0 0 5px 5px rgba(1, 172, 1, 0.486);
+    transform: scale(1.5);
+}
+.krug-2 {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic2.png);
+    margin-top: 17.5%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0  2.5Px  2.5Px  rgba(211, 211, 211, 0.582),  0 0  2.5Px  2.5Px  rgba(211, 211, 211, 0.582);
+    transform: scale(1.25);
+}
+
+.krug-2:hover {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic2.png);
+    margin-top: 17.5%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0 5px 5px rgba(211, 211, 211, 0.582), 0 0 5px 5px rgba(211, 211, 211, 0.582);
+    transform: scale(1.5);
+    
+}
+.krug-3 {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic3.png);
+    margin-top: 17.5%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0  2.5Px  2.5Px  rgba(212, 202, 112, 0.582), 0 0  2.5Px  2.5Px rgba(250, 225, 83, 0.582);
+    transform: scale(1.25);
+
+}
+.krug-3:hover {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic3.png);
+    margin-top: 17.5%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0 5px 5px rgba(212, 202, 112, 0.582), 0 0 5px 5px rgba(250, 225, 83, 0.582);
+    transform: scale(1.5);
+    
+}
+.krug-4 {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic4.png);
+    margin-top: 10%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0  2.5Px  2.5Px  rgb(119, 119, 119), 0 0  2.5Px  2.5Px  rgb(119, 119, 119);
+    transform: scale(1.25);
+}
+
+.krug-4:hover {
+    height: 26.666%;
+    width: 10%;
+    background-image: url(img/pic4.png);
+    margin-top: 10%;
+    float:left;
+    margin-left: 15%;
+    border-radius: 100px;
+    box-shadow: inset 0 0 5px 5px rgb(119, 119, 119), 0 0 5px 5px rgb(119, 119, 119);
+    transform: scale(1.5);
+}
+.bottom {
+    height: 28.125%; /* 450px */
+    width: 100%;
+} 
+.pic2-right {
+   float:right;
+   width: 100%;
+   height: 100%;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 20px;
+   
+}
+.lezha1 {
+    float:right;
+    height:90%;
+    width: 157px;
+    background-image: url(img/lezha_01.gif);
+    border-radius: 20px;
+}
+.lezha2 {
+    float:right;
+    height: 90%;
+    width: 99px;
+    background-image: url(img/lezha_02.gif);
+    border-radius: 20px;
+    margin-left: 10px;
+}.lezha3 {
+    float:right;
+    margin-left:10px;
+    height: 90%;
+    width: 173px;
+    background-image: url(img/lezha_03.jpg);
+    border-radius: 20px;
+    margin-right: 2%;
+}
+
+.stoya1-left {
+    height: 100%;
+    width: 57.5%;
+    background-image: url(img/okno.png);
+    float:left;
+    border-radius: 20px;
+    margin-left: 1%     ;
+}
+.lezhatext {
+    float:right;
+    height:10%;
+    width: 37.5%;
+    background-color: rgb(75, 75, 75);
+    opacity: 0.90;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+    border-radius:20px;
+    text-align: center;
+    margin-right: 2%;
+}
