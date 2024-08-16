@@ -46,39 +46,143 @@ background-image: url(img/background.jpg);
     opacity: 0.9;
 }
 
-.line1 {
+.space1 {
     width: 100%;
     height: 595px;
     margin-top: 20px;
 }
-.line1-left {
+/* вариант 1 */
+.left-cube {
     width: 595px;
     background-color: rgb(211, 147, 147);
     height: 595px;
     float: left;
 }
-.line1-left1 {
+.line-left1 {
     width: 200px;
     background-color: rgb(253, 0, 0);
     height: 200px;
     float: left;
     margin-left: 50px;
     margin-top: 50px;
+    border-radius:10px;
 }
-.line1-left2 {
+.line-left2 {
     width: 200px;
     background-color: rgb(253, 0, 0);
     height: 200px;
     float: right;
     margin-right: 50px;
     margin-top: 50px;
+    border-radius:10px;
 }
-.line1-right {
-    width: 595px;
+.line-left3 {
+    width: 495px;
+    background-color: rgb(253, 0, 0);
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius:10px;
+}   
+.right-cube1 {
+    width: 198px;
     background-color: rgb(211, 147, 147);
     height: 595px;
-    float:right;
+    float: left;
+    margin-left: 3px;
 }
-.line1-left2 {
+.right-cube2 {
+    width: 198px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: left;
+    margin-left: 3px;
+}
+.right-cube3 {
+    width: 198px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: left;
+    margin-left: 3px;
+}
+.image  {
+    max-width: 100%;
+}
+@media (max-width: 979px) {
+    .house {
+        width: 970px;
+        height: 1600px; 
+        
+        margin:auto;
+        
+     }
+     .panel {
+         height: 100px;
+         width: 100%;
+         background-color: rgb(172, 156, 115);
+         
+     }
+     .top {
+         height: 28.125%; /* 450px */
+     }
+     .pic1-left {
+        float:left;
+        width: 37.5%;
+        height: 100%;
+       
+        margin-left: 10px;
+        margin-top: 10px;
+        
+        float:left;
+     }
+     .text1-right {
+         width: 60%;
+         height: 100%;
+         float:right;
+         background-color: lightcoral;
+         margin-right: 10px;
+         margin-top: 10px;
+         border-radius: 10px;
+         text-align: center;
+         color:black;
+         font-size: 22px;
+         font-family: 'Courier New', Courier, monospace;
+         opacity: 0.9;
+     }
+     
+     .space1 {
+         width: 100%;
+         height: 595px;
+         margin-top: 20px;
+     }
+     /* вариант 1 */
+     .left-cube {
+         width: 970px;
+         background-color: rgb(211, 147, 147);
+         height: 970px;
+         float: none;
+     }
     
-}
+     .left-cube {
+        width: 970px;
+        background-color: rgb(99, 219, 153);
+        height: 970px;
+        float: none;
+    }
+     
+     .right-cube1 {
+        width: 970px;
+        background-color: rgb(211, 147, 147);
+        height: 970px;
+        float: none;
+     }
+     .right-cube3 {
+         width: 198px;
+         background-color: rgb(211, 147, 147);
+         height: 595px;
+         float: left;
+         margin-left: 3px;
+     }  
+    }
+ 
