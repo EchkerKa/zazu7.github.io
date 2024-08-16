@@ -85,6 +85,7 @@ background-image: url(img/background.jpg);
     margin-top: 70px;
     border-radius:10px;
 }   
+
 .right-cube1 {
     width: 198px;
     background-color: rgb(211, 147, 147);
@@ -186,3 +187,62 @@ background-image: url(img/background.jpg);
      }  
     }
  
+
+.right-cube {
+    width: 595px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: right;
+}
+.line-right {
+    width: 595px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float:right;
+    border-radius:10px;
+}
+
+/* вариант 2 
+.left-cube {
+    width: 900px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: left;
+}
+.line-left1 {
+    width: 380px;
+    background-color: rgb(253, 0, 0);
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius:10px;
+}
+.line-left2 {
+    width: 380px;
+    background-color: rgb(253, 0, 0);
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius:10px;
+}
+.line-left3 {
+    width: 800px;
+    background-color: rgb(253, 0, 0);
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius:10px;
+}  
+.right-cube {
+    width: 290px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: right;
+    
+}
+                    */    
+
+
