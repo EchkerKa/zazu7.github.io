@@ -25,10 +25,9 @@ background-image: url(img/background.jpg);
    float:left;
    width: 37.5%;
    height: 100%;
-  
    margin-left: 10px;
    margin-top: 10px;
-   
+   background-image: url(img/zazu1.png);
    float:left;
 }
 .text1-right {
@@ -51,13 +50,8 @@ background-image: url(img/background.jpg);
     height: 595px;
     margin-top: 20px;
 }
-/* вариант 1 */
-.left-cube {
-    width: 595px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-}
+
+/* 
 .line-left1 {
     width: 200px;
     background-color: rgb(253, 0, 0);
@@ -84,32 +78,72 @@ background-image: url(img/background.jpg);
     margin-left: 50px;
     margin-top: 70px;
     border-radius:10px;
-}   
+}   */
+
+.left-cube {
+    width: 590px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: left;
+    background-image: url(img/flower_01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right-cube {
+    width: 295px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float: left;
+    margin-left: 5px;
+    background-image: url(img/flower_02.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .right-cube1 {
-    width: 198px;
+    width: 148px;
     background-color: rgb(211, 147, 147);
     height: 595px;
     float: left;
-    margin-left: 3px;
+    margin-left: 5px;
+    background-image: url(img/flower_03.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .right-cube2 {
-    width: 198px;
+    width: 74px;
     background-color: rgb(211, 147, 147);
     height: 595px;
     float: left;
-    margin-left: 3px;
+    margin-left: 5px;
+    background-image: url(img/flower_04.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 .right-cube3 {
-    width: 198px;
+    width: 73px;
     background-color: rgb(211, 147, 147);
     height: 595px;
     float: left;
-    margin-left: 3px;
+    margin-left: 5px;
+    background-image: url(img/flower_05.jpg);
+    background-size: cover;
+    background-position: center; 
 }
 .image  {
     max-width: 100%;
 }
+
+.line-right {
+    width: 595px;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    float:right;
+    border-radius:10px;
+}
+
+
 @media (max-width: 979px) {
     .house {
         width: 970px;
@@ -117,6 +151,29 @@ background-image: url(img/background.jpg);
         
         margin:auto;
         
+     }
+     .pic1-left {
+        float:left;
+        width: 100%;
+        height: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        float:left;
+        background-image: url(img/zazu1.png);
+     }
+     .text1-right {
+         width: 40%;
+         height: 80%;
+         float:right;
+         background-color: lightcoral;
+         margin-right: 10px;
+         margin-top: 10px;
+         border-radius: 10px;
+         text-align: center;
+         color:black;
+         font-size: 22px;
+         font-family: 'Courier New', Courier, monospace;
+         opacity: 0.9;
      }
      .panel {
          height: 100px;
@@ -157,92 +214,48 @@ background-image: url(img/background.jpg);
          height: 595px;
          margin-top: 20px;
      }
-     /* вариант 1 */
+   
      .left-cube {
-         width: 970px;
+         width: 393.33333333px;
          background-color: rgb(211, 147, 147);
-         height: 970px;
+         height: 100%;
          float: none;
+         
      }
-    
-     .left-cube {
-        width: 970px;
-        background-color: rgb(99, 219, 153);
-        height: 970px;
-        float: none;
-    }
-     
-     .right-cube1 {
-        width: 970px;
+     .right-cube {
+        width: 196.6666666px;
         background-color: rgb(211, 147, 147);
-        height: 970px;
+        height: 100%;
         float: none;
+        margin-top: -595px;
+        margin-left: 403.3333px;
      }
-     .right-cube3 {
-         width: 198px;
+      .right-cube1 {
+        width: 98.666666px;
+        background-color: rgb(211, 147, 147);
+        height: 100%;
+        float: none;
+        background-image: url(img/flower_03.jpg);
+        margin-top: -595px;
+        margin-left: 607.9999px;
+     }
+    .right-cube2 {
+        width: 49.333333333333px;
+        background-color: rgb(211, 147, 147);
+        height: 100%;
+        float: none;
+        margin-top: -595px;
+        margin-left: 714px;
+     }
+      .right-cube3 {
+         width: 48.6666666px;
          background-color: rgb(211, 147, 147);
-         height: 595px;
+         height: 100%;
          float: left;
-         margin-left: 3px;
-     }  
+         margin-left: 3px;   
+         margin-top: -595px;
+         margin-left: 770.99965px; 
+     } 
     }
  
-
-.right-cube {
-    width: 595px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: right;
-}
-.line-right {
-    width: 595px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float:right;
-    border-radius:10px;
-}
-
-/* вариант 2 
-.left-cube {
-    width: 900px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-}
-.line-left1 {
-    width: 380px;
-    background-color: rgb(253, 0, 0);
-    height: 200px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 50px;
-    border-radius:10px;
-}
-.line-left2 {
-    width: 380px;
-    background-color: rgb(253, 0, 0);
-    height: 200px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    border-radius:10px;
-}
-.line-left3 {
-    width: 800px;
-    background-color: rgb(253, 0, 0);
-    height: 200px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 70px;
-    border-radius:10px;
-}  
-.right-cube {
-    width: 290px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: right;
-    
-}
-                    */    
-
 
