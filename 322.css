@@ -34,7 +34,7 @@ background-image: url(img/background.jpg);
 .panel {
     height: 100px;
     width: 100%;
-    background-color: rgb(172, 156, 115);
+    background-color: #6f81a5;
     
 }
 .top {
@@ -46,8 +46,8 @@ background-image: url(img/background.jpg);
    height: 100%;
    margin-left: 10px;
    margin-top: 10px;
-   background-image: url(img/zazu1.png);
-   float:left;
+  
+   
 }
 .text1-right {
     width: 60%;
@@ -73,7 +73,11 @@ background-image: url(img/background.jpg);
  
 .line-left1 {
     width: 200px;
-   
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
     height: 200px;
     float: left;
     margin-left: 50px;
@@ -83,7 +87,11 @@ background-image: url(img/background.jpg);
 }
 .line-left2 {
     width: 200px;
-    
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
     height: 200px;
     float: right;
     margin-right: 50px;
@@ -93,7 +101,11 @@ background-image: url(img/background.jpg);
 }
 .line-left3 {
     width: 200px;
-    
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
     height: 200px;
     float: left;
     margin-left: 50px;
@@ -102,57 +114,17 @@ background-image: url(img/background.jpg);
     background-image: url(img/cub_3.png);
 }   
 
-.left-cube {
-    width: 590px;
+.cube {
+    width: 100%;
     background-color: rgb(211, 147, 147);
     height: 595px;
-    float: left;
-    background-image: url(img/flower_01.jpg);
+    
+    background-image: url(img/cub1.png);
     background-position: center;
-    background-size: cover;
-}
-.right-cube {
-    width: 295px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-    margin-left: 5px;
-    background-image: url(img/flower_02.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
 }
 
-.right-cube1 {
-    width: 148px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-    margin-left: 5px;
-    background-image: url(img/flower_03.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.right-cube2 {
-    width: 74px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-    margin-left: 5px;
-    background-image: url(img/flower_04.jpg);
-    background-size: cover;
-    background-position: center;
 
-}
-.right-cube3 {
-    width: 73px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float: left;
-    margin-left: 5px;
-    background-image: url(img/flower_05.jpg);
-    background-size: cover;
-    background-position: center; 
-}
 .image  {
     max-width: 100%;
 }
@@ -168,20 +140,19 @@ background-image: url(img/background.jpg);
 
 @media (max-width: 979px) {
     .house {
-        width: 970px;
+        width: 965px;
         height: 1600px; 
         
         margin:auto;
         
      }
      .pic1-left {
-        float:left;
+        float:none;
         width: 100%;
-        height: 50%;
-        margin-left: 10px;
+        height: 450px;
+        margin-left: 0px;
         margin-top: 10px;
-        float:left;
-        background-image: url(img/zazu1.png);
+        
      }
      .text1-right {
          width: 40%;
@@ -237,9 +208,9 @@ background-image: url(img/background.jpg);
          margin-top: 20px;
      }
    
-     .left-cube {
-         width: 393.33333333px;
-         background-color: rgb(211, 147, 147);
+     .cube {
+         width: 100%;
+        
          height: 100%;
          float: none;
          
@@ -281,3 +252,58 @@ background-image: url(img/background.jpg);
     }
  
 
+    @media (max-width: 767px) {
+        .house {
+            width: 740px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+         .cube {
+            width: 100%;
+         }
+         .top {
+            height: 28.125%; /* 450px */
+        }
+        .pic1-left {
+           float:none;
+           width: 100%;
+           height: 740px;
+           margin-left: 0px;
+           margin-top: 5px;
+           background-color: lightgreen ;
+           
+        }
+        .text1-right {
+            width: 100%;
+            
+            float:none;
+            background-color: lightcoral;
+            margin-right: 0px;
+            margin-top: 0px;
+            border-radius: 0px;
+            text-align: center;
+            color:black;
+            font-size: 22px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+        }
+
+
+
+
+    }
+    @media (max-width: 480px) {
+
+        .house {
+            width: 465px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+
+
+
+    }
