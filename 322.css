@@ -8,9 +8,10 @@ background-image: url(img/background.jpg);
 .house {
    width: 1200px;
    height: 1600px; 
-   
    margin:auto;
-   
+}
+.vvv {
+    color: rgba(240, 248, 255, 0);
 }
 .instagram {
    
@@ -24,17 +25,18 @@ background-image: url(img/background.jpg);
     max-width: 100%;
     border-radius: 20px;
 }
-.shop {
+.twitter {
     height: 75px;
     width: 75px;
     float: right;
     margin-right: 12.5px;
     margin-top: 12.5px;
+    
 }
 .panel {
     height: 100px;
     width: 100%;
-    background-color: #6f81a5;
+    background-color: rgb(77, 77, 77);
     
 }
 .top {
@@ -49,16 +51,19 @@ background-image: url(img/background.jpg);
   
    
 }
+.zagolovok {
+    font-size: 45px;
+}
 .text1-right {
     width: 60%;
     height: 100%;
     float:right;
-    background-color: lightcoral;
+    background-color:  rgb(77, 77, 77);
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 10px;
     text-align: center;
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
     opacity: 0.9;
@@ -71,57 +76,12 @@ background-image: url(img/background.jpg);
 }
 
  
-.line-left1 {
-    width: 200px;
-    color: rgb(37, 69, 99);
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    user-select: none;
-    height: 200px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 50px;
-    border-radius:10px;
-    background-image: url(img/cub_1.png);
-}
-.line-left2 {
-    width: 200px;
-    color: rgb(37, 69, 99);
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    user-select: none;
-    height: 200px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    border-radius:10px;
-    background-image: url(img/cub_2.png);
-}
-.line-left3 {
-    width: 200px;
-    color: rgb(37, 69, 99);
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    user-select: none;
-    height: 200px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 70px;
-    border-radius:10px;
-    background-image: url(img/cub_3.png);
-}   
+  
 
-.cube {
+.xiao_pic {
     width: 100%;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    
-    background-image: url(img/cub1.png);
-    background-position: center;
-    background-size: 100%;
+    height: 500px;
+    box-shadow:  0 0 15px wheat;
 }
 
 
@@ -129,23 +89,31 @@ background-image: url(img/background.jpg);
     max-width: 100%;
 }
 
-.line-right {
-    width: 595px;
-    background-color: rgb(211, 147, 147);
-    height: 595px;
-    float:right;
-    border-radius:10px;
+
+.kube-1 {
+    height: 225px;
+    width: 100%;
+    background-color: coral;
+    margin-top: 7px;
 }
+.kube-2 {
+    height: 225px;
+    width: 100%;
+    background-color: tomato;
+    margin-top: 10px;
+}
+
+
+
 
 
 @media (max-width: 979px) {
     .house {
         width: 965px;
         height: 1600px; 
-        
         margin:auto;
-        
      }
+     
      .pic1-left {
         float:none;
         width: 100%;
@@ -171,7 +139,7 @@ background-image: url(img/background.jpg);
      .panel {
          height: 100px;
          width: 100%;
-         background-color: rgb(172, 156, 115);
+        
          
      }
      .top {
@@ -179,76 +147,34 @@ background-image: url(img/background.jpg);
      }
      .pic1-left {
         float:left;
-        width: 37.5%;
+        width: 50%;
         height: 100%;
-       
         margin-left: 10px;
         margin-top: 10px;
-        
-        float:left;
      }
      .text1-right {
-         width: 60%;
-         height: 100%;
-         float:right;
-         background-color: lightcoral;
-         margin-right: 10px;
-         margin-top: 10px;
-         border-radius: 10px;
-         text-align: center;
-         color:black;
-         font-size: 22px;
-         font-family: 'Courier New', Courier, monospace;
-         opacity: 0.9;
+        width: 452.5px;
+        height: 482.5px;
+        float:right;
+        background-color:  rgb(77, 77, 77);
+        margin-right: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        opacity: 0.9;
      }
-     
-     .space1 {
+     .xiao_pic {
          width: 100%;
-         height: 595px;
-         margin-top: 20px;
-     }
-   
-     .cube {
-         width: 100%;
-        
-         height: 100%;
+         height: 400px;
          float: none;
-         
+         margin-top: 10px;
      }
-     .right-cube {
-        width: 196.6666666px;
-        background-color: rgb(211, 147, 147);
-        height: 100%;
-        float: none;
-        margin-top: -595px;
-        margin-left: 403.3333px;
-     }
-      .right-cube1 {
-        width: 98.666666px;
-        background-color: rgb(211, 147, 147);
-        height: 100%;
-        float: none;
-        background-image: url(img/flower_03.jpg);
-        margin-top: -595px;
-        margin-left: 607.9999px;
-     }
-    .right-cube2 {
-        width: 49.333333333333px;
-        background-color: rgb(211, 147, 147);
-        height: 100%;
-        float: none;
-        margin-top: -595px;
-        margin-left: 714px;
-     }
-      .right-cube3 {
-         width: 48.6666666px;
-         background-color: rgb(211, 147, 147);
-         height: 100%;
-         float: left;
-         margin-left: 3px;   
-         margin-top: -595px;
-         margin-left: 770.99965px; 
-     } 
+     .zagolovok {
+        font-size: 30px;
+    }
     }
  
 
@@ -260,36 +186,55 @@ background-image: url(img/background.jpg);
             margin:auto;
             
          }
-         .cube {
+         .pic1-left {
+            float:none;
             width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
          }
          .top {
-            height: 28.125%; /* 450px */
-        }
-        .pic1-left {
-           float:none;
-           width: 100%;
-           height: 740px;
-           margin-left: 0px;
-           margin-top: 5px;
-           background-color: lightgreen ;
-           
-        }
-        .text1-right {
-            width: 100%;
-            
-            float:none;
-            background-color: lightcoral;
-            margin-right: 0px;
-            margin-top: 0px;
-            border-radius: 0px;
+             height: 0px; 
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 10px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 370px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
             text-align: center;
-            color:black;
-            font-size: 22px;
+            color:rgb(255, 255, 255);
+            font-size: 16px;
             font-family: 'Courier New', Courier, monospace;
             opacity: 0.9;
+         }
+         .xiao_pic {
+             width: 100%;
+             height: 450px;
+             float: none;
+            
+         }
+         .zagolovok {
+            font-size: 25px;
         }
-
+       
 
 
 
@@ -303,6 +248,53 @@ background-image: url(img/background.jpg);
             margin:auto;
             
          }
+         .pic1-left {
+            float:none;
+            width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
+         }
+         .top {
+             height: 0px;
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 5px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 232.5px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 5px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+         }
+         .xiao_pic {
+             width: 100%;
+             height: 450px;
+             float: none;
+         }
+         .zagolovok {
+            font-size: 15px;
+        }
 
 
 
