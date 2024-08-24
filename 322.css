@@ -40,22 +40,24 @@ background-image: url(img/background.jpg);
     
 }
 .top {
-    height: 28.125%; /* 450px */
+    width: 100%;
+    height: 480px;
+    padding-bottom: 7px;
 }
 .pic1-left {
    float:left;
-   width: 37.5%;
+   width: 40%;
    height: 100%;
    margin-left: 10px;
    margin-top: 10px;
-  
+   border-radius: 10px;
    
 }
 .zagolovok {
     font-size: 45px;
 }
 .text1-right {
-    width: 60%;
+    width: 57.7%;
     height: 100%;
     float:right;
     background-color:  rgb(77, 77, 77);
@@ -71,17 +73,31 @@ background-image: url(img/background.jpg);
 
 .content {
     width: 100%;
-  
-    margin-top: 20px;
+height: 596px;
+    padding-top: 7px;
 }
-
- 
+.cube-l {
+    width: 49.5%;
+    float:left;
+    height: 100%;
+}
+.cube-r {
+    width: 49.5%;
+    float:right;
+    height: 100%;
+}
   
 
 .xiao_pic {
-    width: 100%;
-    height: 500px;
-    box-shadow:  0 0 15px wheat;
+    
+    max-width: 100%;
+    
+    
+}
+.xiao_pic1 {
+    
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -90,18 +106,15 @@ background-image: url(img/background.jpg);
 }
 
 
-.kube-1 {
-    height: 225px;
+.kube {
+    height: 150px;
     width: 100%;
     background-color: coral;
-    margin-top: 7px;
-}
-.kube-2 {
-    height: 225px;
-    width: 100%;
-    background-color: tomato;
     margin-top: 10px;
+   
+   
 }
+
 
 
 
