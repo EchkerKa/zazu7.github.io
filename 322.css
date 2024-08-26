@@ -15,28 +15,28 @@ background-image: url(img/background.jpg);
 }
 .instagram {
    
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     float: left;
-    margin-left: 12.5px;
-    margin-top: 12.5px;
+    margin-left: 15px;
+    margin-top: 20px;
 }
 .insta {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .twitter {
-    height: 75px;
-    width: 75px;
-    float: right;
-    margin-right: 12.5px;
-    margin-top: 12.5px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
     
 }
 .panel {
-    height: 100px;
+    height: 85px;
     width: 100%;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(134, 128, 128);
     
 }
 .top {
@@ -54,7 +54,9 @@ background-image: url(img/background.jpg);
    
 }
 .zagolovok {
-    font-size: 45px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .text1-right {
     width: 57.7%;
@@ -73,7 +75,7 @@ background-image: url(img/background.jpg);
 
 .content {
     width: 100%;
-height: 596px;
+    height: 596px;
     padding-top: 7px;
 }
 .cube-l {
@@ -107,14 +109,17 @@ height: 596px;
 
 
 .kube {
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: coral;
-    margin-top: 10px;
-   
-   
+    margin-top: 10px; 
 }
-
+h1 {
+    line-height: 0.1em;
+}
+h2 {
+    margin-top: 20px;
+}
 
 
 
@@ -186,7 +191,7 @@ height: 596px;
          margin-top: 10px;
      }
      .zagolovok {
-        font-size: 30px;
+        font-size: 15px;
     }
     }
  
