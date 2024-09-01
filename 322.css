@@ -25,6 +25,18 @@ background-image: url(img/background.jpg);
     max-width: 100%;
     border-radius: 10px;
 }
+.insta2 {
+    max-width: 100%;
+    border-radius: 10px;
+ 
+}
+.icon {
+    height: 75px;
+    width: 75px;
+    float:right;
+    margin-top: 7.5px;
+    margin-right: 10px;
+}
 .twitter {
     height: 50px;
     width: 50px;
@@ -68,27 +80,50 @@ background-image: url(img/background.jpg);
     border-radius: 10px;
     text-align: center;
     color:rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 26.8px;
     font-family: 'Courier New', Courier, monospace;
     opacity: 0.9;
 }
 
 .content {
     width: 100%;
-    height: 596px;
+    height: 700px;
     padding-top: 7px;
 }
 .cube-l {
-    width: 49.5%;
+    width: 49%;
+    float: left;
+}
+.cube-l1 {
+    width: 49%;
     float:left;
-    height: 100%;
 }
+.cube-l2 {
+    width: 49%;
+    float:left;
+}
+.cube-l3 {
+    width: 49%;
+    float:left;
+}
+
 .cube-r {
-    width: 49.5%;
-    float:right;
-    height: 100%;
+    width: 49%;
+    float: right;
 }
-  
+.cube-r1 {
+    width: 49%;
+    float: right; 
+}
+.cube-r2 {
+    width: 49%;
+    float:right; 
+}
+.cube-r3 {
+    width: 49%;
+    float:right; 
+}
+   
 
 .xiao_pic {
     
@@ -110,9 +145,19 @@ background-image: url(img/background.jpg);
 
 .kube {
     height: 100px;
-    width: 100%;
-    background-color: coral;
+    width: 49.5%;
+    background-color: rgb(134, 128, 128);
     margin-top: 10px; 
+    float:left;
+    border-radius: 7.5px 7.5px 0 0;
+}
+.kube1 {
+    height: 100px;
+    width: 49.5%;
+    background-color: rgb(134, 128, 128);
+    margin-top: 10px; 
+    float: right;
+    border-radius: 7.5px 7.5px 0 0;
 }
 h1 {
     line-height: 0.1em;
@@ -121,6 +166,20 @@ h2 {
     margin-top: 20px;
 }
 
+.korobka {
+    background-color: blueviolet;
+    height: 589px;
+    width: 49.5%;
+    float:left;
+    border-radius: 7.5px;
+}
+.korobka1 {
+    background-color: blueviolet;
+    height: 589px;
+    width: 49.5%;
+    float: right;
+    border-radius: 7.5px;
+}
 
 
 
@@ -131,68 +190,35 @@ h2 {
         height: 1600px; 
         margin:auto;
      }
-     
-     .pic1-left {
-        float:none;
-        width: 100%;
-        height: 450px;
-        margin-left: 0px;
-        margin-top: 10px;
-        
-     }
-     .text1-right {
-         width: 40%;
-         height: 80%;
-         float:right;
-         background-color: lightcoral;
-         margin-right: 10px;
-         margin-top: 10px;
-         border-radius: 10px;
-         text-align: center;
-         color:black;
-         font-size: 22px;
-         font-family: 'Courier New', Courier, monospace;
-         opacity: 0.9;
-     }
-     .panel {
-         height: 100px;
-         width: 100%;
-        
-         
-     }
-     .top {
-         height: 28.125%; /* 450px */
-     }
      .pic1-left {
         float:left;
         width: 50%;
         height: 100%;
-        margin-left: 10px;
-        margin-top: 10px;
-     }
-     .text1-right {
-        width: 452.5px;
-        height: 482.5px;
-        float:right;
-        background-color:  rgb(77, 77, 77);
-        margin-right: 10px;
+        margin-left: 0px;
         margin-top: 10px;
         border-radius: 10px;
-        text-align: center;
-        color:rgb(255, 255, 255);
-        font-size: 22px;
-        font-family: 'Courier New', Courier, monospace;
-        opacity: 0.9;
+        
      }
-     .xiao_pic {
-         width: 100%;
-         height: 400px;
-         float: none;
-         margin-top: 10px;
-     }
-     .zagolovok {
-        font-size: 15px;
+    
+    .text1-right {
+        width: 48.5%;
+        font-size: 21.65px;
     }
+    .korobka {
+        background-color: blueviolet;
+        height: 475px;
+        width: 49.5%;
+        float:left;
+        border-radius: 7.5px;
+    }
+    .korobka1 {
+        background-color: blueviolet;
+        height: 475px;
+        width: 49.5%;
+        float: right;
+        border-radius: 7.5px;
+    }
+
     }
  
 
@@ -205,58 +231,48 @@ h2 {
             
          }
          .pic1-left {
-            float:none;
-            width: 100%;
-            height: 450px;
+            float:left;
+            height: 66%;
             margin-left: 0px;
             margin-top: 10px;
-            
-         }
-         
-         .panel {
-             height: 100px;
-             width: 100%;
-            
-             
-         }
-         .top {
-             height: 0px; 
-         }
-         .pic1-left {
-            float:left;
-            width: 50%;
-            height: 100%;
-            margin-left: 10px;
-            margin-top: 10px;
-         }
-         .text1-right {
-            width: 46%;
-            height: 370px;
-            float:right;
-            background-color:  rgb(77, 77, 77);
-            margin-right: 10px;
-            margin-top: 10px;
             border-radius: 10px;
-            text-align: center;
-            color:rgb(255, 255, 255);
-            font-size: 16px;
-            font-family: 'Courier New', Courier, monospace;
-            opacity: 0.9;
-         }
-         .xiao_pic {
-             width: 100%;
-             height: 450px;
-             float: none;
             
          }
-         .zagolovok {
-            font-size: 25px;
+        .top {
+            height: 380px;
+        }
+        .text1-right {
+            width: 47.9%;
+            height: 370px;
+            font-size: 17px;
+            float: right;
+        }
+        .zagolovok {
+            font-size: 15px;
+        }
+        .korobka {
+            background-color: blueviolet;
+            height: 368px;
+            width: 49.5%;
+            float:left;
+            border-radius: 7.5px;
+        }
+        .korobka1 {
+            background-color: blueviolet;
+            height: 368px;
+            width: 49.5%;
+            float: right;
+            border-radius: 7.5px;
+        }
+    
+         
+     
         }
        
 
 
 
-    }
+    
     @media (max-width: 480px) {
 
         .house {
@@ -267,53 +283,57 @@ h2 {
             
          }
          .pic1-left {
-            float:none;
-            width: 100%;
-            height: 450px;
+            float:left;
+            height: 100%;
             margin-left: 0px;
             margin-top: 10px;
-            
-         }
-         
-         .panel {
-             height: 100px;
-             width: 100%;
-            
-             
-         }
-         .top {
-             height: 0px;
-         }
-         .pic1-left {
-            float:left;
-            width: 50%;
-            height: 100%;
-            margin-left: 5px;
-            margin-top: 10px;
-         }
-         .text1-right {
-            width: 46%;
-            height: 232.5px;
-            float:right;
-            background-color:  rgb(77, 77, 77);
-            margin-right: 5px;
-            margin-top: 10px;
             border-radius: 10px;
-            text-align: center;
-            color:rgb(255, 255, 255);
-            font-size: 10px;
-            font-family: 'Courier New', Courier, monospace;
-            opacity: 0.9;
+            width: 100%;
          }
-         .xiao_pic {
-             width: 100%;
-             height: 450px;
-             float: none;
-         }
-         .zagolovok {
+        
+        .text1-right {
+            width: 100%;
+            height: 300px;
+            font-size: 17.5px;
+            float: left;
+        }
+        .top {
+            height: 460px;
+        }
+        .zagolovok {
             font-size: 15px;
         }
-
-
+        .korobka {
+            background-color: blueviolet;
+            height: 368px;
+            width: 100%;
+            float:left;
+            border-radius: 7.5px;
+        }
+        .korobka1 {
+            background-color: blueviolet;
+            height: 368px;
+            width: 49.5%;
+            float: right;
+            border-radius: 7.5px;
+        }
+        .kube {
+            height: 100px;
+            width: 100%;
+            background-color: rgb(134, 128, 128);
+            margin-top: 0px; 
+            float:left;
+            border-radius: 7.5px 7.5px 0 0;
+        }
+        .kube1 {
+            height: 100px;
+            width: 49.5%;
+            background-color: rgb(134, 128, 128);
+            margin-top: 10px; 
+            float: right;
+            border-radius: 7.5px 7.5px 0 0;
+        }
+         
+     
 
     }
