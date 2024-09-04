@@ -145,18 +145,20 @@ background-image: url(img/background.jpg);
 
 .kube {
     height: 100px;
-    width: 49.5%;
+    width: 100%;
     background-color: rgb(134, 128, 128);
-    margin-top: 10px; 
+    margin-top: 0px; 
     float:left;
+    margin-bottom: 10px;
     border-radius: 7.5px 7.5px 0 0;
 }
 .kube1 {
     height: 100px;
-    width: 49.5%;
+    width: 100%;
     background-color: rgb(134, 128, 128);
-    margin-top: 10px; 
+    margin-top: 0px; 
     float: right;
+    margin-bottom: 10px;
     border-radius: 7.5px 7.5px 0 0;
 }
 h1 {
@@ -168,14 +170,14 @@ h2 {
 
 .korobka {
     background-color: blueviolet;
-    height: 589px;
+    height: 702px;
     width: 49.5%;
     float:left;
     border-radius: 7.5px;
 }
 .korobka1 {
     background-color: blueviolet;
-    height: 589px;
+    height: 702px;
     width: 49.5%;
     float: right;
     border-radius: 7.5px;
@@ -206,18 +208,21 @@ h2 {
     }
     .korobka {
         background-color: blueviolet;
-        height: 475px;
+        height: 590px;
         width: 49.5%;
+        margin-top: 10px;
         float:left;
         border-radius: 7.5px;
     }
     .korobka1 {
         background-color: blueviolet;
-        height: 475px;
+        height: 590px;
         width: 49.5%;
         float: right;
+        margin-top: 10px;
         border-radius: 7.5px;
     }
+    
 
     }
  
@@ -252,14 +257,14 @@ h2 {
         }
         .korobka {
             background-color: blueviolet;
-            height: 368px;
+            height: 480px;
             width: 49.5%;
             float:left;
             border-radius: 7.5px;
         }
         .korobka1 {
             background-color: blueviolet;
-            height: 368px;
+            height: 480px;
             width: 49.5%;
             float: right;
             border-radius: 7.5px;
@@ -305,15 +310,17 @@ h2 {
         }
         .korobka {
             background-color: blueviolet;
-            height: 368px;
+            height: 578px;
             width: 100%;
             float:left;
             border-radius: 7.5px;
+            margin-top: 10px;
         }
         .korobka1 {
+            margin-top: 10px;
             background-color: blueviolet;
-            height: 368px;
-            width: 49.5%;
+            height: 578px;
+            width: 100%;
             float: right;
             border-radius: 7.5px;
         }
@@ -323,14 +330,16 @@ h2 {
             background-color: rgb(134, 128, 128);
             margin-top: 0px; 
             float:left;
+            margin-bottom: 10px;
             border-radius: 7.5px 7.5px 0 0;
         }
         .kube1 {
             height: 100px;
-            width: 49.5%;
+            width: 100%;
             background-color: rgb(134, 128, 128);
-            margin-top: 10px; 
+            margin-top: 0px; 
             float: right;
+            margin-bottom: 10px;
             border-radius: 7.5px 7.5px 0 0;
         }
          
