@@ -69,7 +69,7 @@ background-image: url(img/background.jpg);
 .zagolovok {
     font-size: 25px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  monospace;
 }
 .text1-right {
     width: 57.7%;
@@ -82,7 +82,7 @@ background-image: url(img/background.jpg);
     text-align: center;
     color:rgb(255, 255, 255);
     font-size: 26.8px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     opacity: 0.9;
 }
 
